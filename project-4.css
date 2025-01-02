@@ -1,0 +1,349 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    /* height: 100%;
+    width: 100%; */
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.page1 {
+    height: 100%;
+    width: 100%;
+
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .logo {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .logo h1 {
+    font-size: 2.4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: #37447E;
+}
+
+.links {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: #505F98;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.BuyButton {
+    height: 100%;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BuyButton button {
+    background-color: #111B47;
+    color: white;
+    padding: 5px 40px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.container .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+}
+
+.content {
+    padding: 20px 100px;
+}
+
+.content p {
+    line-height: 1.5;
+    color: #37447E;
+    font-size: 25px;
+}
+
+.content h2 {
+    color: #111B47;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+
+}
+
+.content button {
+    background-color: #111B47;
+    padding: 5px 30px;
+    border: 2px solid black;
+    color: #FFFFFF;
+    /* margin: ; */
+}
+
+#about button {
+    margin: 0 25px 0 0;
+}
+
+.page2 {
+    height: 100%;
+    width: 100%;
+}
+
+.about-content {
+    padding: 20px 100px;
+}
+
+
+.about-content h3 {
+    color: #111B47;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-content p {
+    line-height: 1.5;
+    color: #37447E;
+    font-size: 25px;
+    /* margin: 150px 150px; */
+}
+
+.card h4 {
+    color: #111B47;
+}
+
+.card p {
+    font-size: medium;
+    width: 75%;
+    color: dimgray;
+}
+
+.img-content {
+    padding: 80px 80px 0 0;
+}
+
+.page3 {
+    height: 100%;
+    width: 100%;
+}
+
+.more-content h1 {
+    font-size: 30px;
+    color: #111B47;
+}
+
+.more-content p {
+    line-height: 1.5;
+    color: #37447E;
+    font-size: 25px;
+    /* width: 70%; */
+}
+
+.container1 .row1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 150px;
+
+}
+
+.image3 {
+    padding: 0 100px 0 0;
+}
+
+.more-content button {
+    background-color: #111B47;
+    color: white;
+    padding: 5px 30px;
+}
+
+button:active {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* .page4{
+    height: 70vh;
+    width: 100%;
+    color: #e7ecff;
+
+} */
+#page-4 {
+    background-color: #f3f6ff;
+    text-align: center;
+    /* justify-content: center; */
+    /* display: flex; */
+}
+
+.center {
+    padding: 150px 0;
+}
+#page-4 button {
+    background-color: #26367c;
+    color: white;
+    padding: 5px 30px;
+}
+#page-4 .center h2{
+    color: #111B47;
+}
+#page-4 .center h1{
+    color: #222f65;
+    font-size: 40px;
+    /* font-weight: 500; */
+}
+
+/* footer {
+    background-color: #e7ecff;
+} */
+
+.footer-container{
+    background-color: #e7ecff;
+    /* height: 20vh; */
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.footer-section {
+    justify-content: space-between;
+    display: flex;
+}
+
+
+
+.footer-section .footer-center {
+    text-align: center;
+}
+
+/* .footer-right{
+    text-align: right;
+    display: flex;
+    justify-content: end;
+} */
+ 
+.footer-right button {
+    display: flex;
+    justify-content: right;
+    background-color: #111B47;
+    color: white;
+    padding: 5px 15px;
+    border: 2px solid black;
+}
+
+.footer-only .footer-left {
+    justify-content: space-around;
+    display: flex;
+    width: 350px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom .footer-right{
+    justify-content: space-around;
+    width: 300px;
+    display: flex;
+}
+
+@media (max-width:600px) {
+    .links {
+        height: 100%;
+        width: 30%;
+        display: none;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    a {
+        display: none;
+        text-decoration: none;
+        color: #505F98;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+
+    .container .row{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .page1 {
+        height: 100%;
+        width: 100%;
+    
+    }
+    .container1 .row1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    nav {
+        height: 100px;
+        width: 100%;
+        /* background-color: black; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav .logo h1 {
+    font-size: 2.4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: #37447E;
+    }
+    #page-4 .center{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    /* html{
+        position: absolute;
+    } */
+}
+
+.links {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: #505F98;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
